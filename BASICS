@@ -1,0 +1,30 @@
+n = 5  # Length of the array
+arr_1d = [0] * n
+print(arr_1d)  # Output: [0, 0, 0, 0, 0]
+
+
+
+
+
+rows, cols = 3, 4  # 3 rows, 4 columns
+arr_2d = [[0] * cols for _ in range(rows)]
+print(arr_2d)
+# Output:
+# [[0, 0, 0, 0],
+#  [0, 0, 0, 0],
+#  [0, 0, 0, 0]]
+
+
+
+
+depth, rows, cols = 2, 3, 4  # 2 layers, 3 rows, 4 columns
+arr_3d = [[[0] * cols for _ in range(rows)] for _ in range(depth)]
+print(arr_3d)
+# Output:
+# [[[0, 0, 0, 0],
+#   [0, 0, 0, 0],
+#   [0, 0, 0, 0]],
+#
+#  [[0, 0, 0, 0],
+#   [0, 0, 0, 0],
+#   [0, 0, 0, 0]]]
